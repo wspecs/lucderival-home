@@ -38,6 +38,5 @@
 <Jams />
 <Biography paragraph={overview.bio_paragraph} quote={overview.bio_quote} />
 <Gallery />
-<!-- <StayInTouch /> -->
 <Contact />
 <Footer />

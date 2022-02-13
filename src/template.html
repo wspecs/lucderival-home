@@ -21,10 +21,13 @@
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#333333">
 
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+
 	%sapper.base%
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="stylesheet" href="global.css">
 	<link rel="manifest" href="manifest.json" crossorigin="use-credentials">
 	<meta name="description" content="Luc Derival is a guitarist from Orlando." />
 	<meta property="og:image"
@@ -78,6 +81,10 @@
 	<script src="scripts/vendor/jquery.parallax.min.js"></script>
 	<script src="scripts/vendor/bootstrap.js"></script>
 	<script src="scripts/loader.js"></script>
+
+	<!--[if lt IE 7]>
+	<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
 </body>
 
 </html>
