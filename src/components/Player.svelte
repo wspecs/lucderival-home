@@ -10,10 +10,12 @@
       "/items",
       '/files?fields=id,title&filter[tags][_in]=["selected_jam"]&sort=-modified_on'
     );
-    jams = (await fetchData(jamsUrl)).map((x) => ({
-      src: getLink(x.id),
-      title: x.title,
-    }));
+    jams = (await fetchData(jamsUrl))
+      .map((x) => ({
+        src: getLink(x.id),
+        title: x.title,
+      }))
+      .sort(() => (Math.random() > 0.5 ? 1 : -1));
   });
 </script>
 

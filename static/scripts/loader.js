@@ -2,6 +2,7 @@ const SCRIPTS_TO_LOAD = [
   "scripts/vendor/jquery.swipebox.min.js",
   "scripts/vendor/flickity.pkgd.js",
   "scripts/main.js",
+  "scripts/discography.js",
   "scripts/intro-slider.js",
   "scripts/vendor/countdown.js",
 ];
