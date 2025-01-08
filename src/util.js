@@ -1,4 +1,4 @@
-export const BASE_API_URL = "https://lucderival.wspecs.com/items";
+export const BASE_API_URL = "https://directus.lucderival.com/items";
 
 export async function fetchJSON(url) {
   let apiEndpoint = url;
